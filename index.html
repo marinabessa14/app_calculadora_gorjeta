@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora Gorjeta</title>
+    <link rel="shortcut icon" href="img/icon-gorjeta.png" type="image/x-icon">
+</head>
+<body>
+    <h2 class="title">Divisão <br/> 
+    </h2>
+
+    <div class="card">
+        <div class="card-container">
+            <div class="secao-inputs">
+                <div class="conta-sec">
+                    <label for="conta">Conta</label>
+                    <div class="conta-input">
+                        <input type="text" placeholder="0" id="conta"/>
+                        <img src="img/icon-dollar.svg" alt="pessoa"/>
+                    </div>
+                </div>
+                <div class="tipo-secao">
+                    <label for="tipo">Selecione a % da gorjeta</label>
+                    <div class="tipo-btns">
+                        <div>
+                            <button>5%</button>
+                            <button>10%</button>
+                            <button>15%</button>
+                        </div>
+                        <div>
+                            <button>25%</button>
+                            <button>50%</button>
+                            <input type="number" placeholder="personalizado" id="personalizado"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="pessoa-secao">
+                    <label for="pessoa">Número de pessoas</label>
+                    <div class="pessoa-input">
+                        <input type="text" placeholder="0" id="pessoa"/>
+                        <img src="img/icon-person.svg" alt="pessoa"/>
+                    </div>
+                </div>
+            </div>
+            <div class="saida-secao">
+                <div class="valor-gorj">
+                    <p>Valor da Gorjeta<br /><span>/ pessoa</span></p>
+                    <h2 id="valorGorj">R$0.00</h2>
+                </div>
+                <div class="total">
+                    <p>Total<br /><span>/ pessoa</span></p>
+                    <h2 id="total">R$0.00</h2>
+                </div>
+                <button class="reset-btn" id="resetBtn">Reiniciar</button>
+            </div>
+        </div>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>
