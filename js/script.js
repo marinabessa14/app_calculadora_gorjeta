@@ -63,6 +63,6 @@ function calcularTip(contaQuant, tipPorcentagem, numPessoa) {
     totalContaPessoa.innerHTML = "$0.00";
     contaQuant.value = "";
     numPessoa.value = "";
-    PersonalTipPorcentagem.value = "";
+    tipPorcent.value = "";
   }
 
